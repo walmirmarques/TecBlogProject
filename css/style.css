@@ -1,0 +1,85 @@
+/* Limpar formatações padrão */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1em;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background: #e6e6e6;
+}
+
+/* MENU PRINCIPAL */
+
+.cabecalho{
+    background: #f7b600;
+    padding: 15px;
+    text-align: center;
+}
+
+.cabecalho_logo{
+    margin-bottom: 15px;
+    font-size: 2.5em;
+}
+
+.branco {
+    color: white;
+}
+
+.cabecalho_menu li {
+    display: inline-block;
+   
+}
+
+.cabecalho_menu a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+
+.cabecalho_menu a:hover{
+    color: #f7b600;
+    background: white;
+}
+
+/* CONTEUDO DO SITE */
+
+.conteudo_principal{
+    width: 920px;
+    margin: 0 auto;
+
+}
+
+.area_postagens {
+    width: 660px;
+    float: left;
+}
+
+.postagem {
+    padding:20px;
+    margin-bottom: 20px;
+    background: white;
+
+}
+
+.postagem img{
+    width: 620px;
+}
+
+.area_lateral {
+    width: 240px;
+    float: right;
+}
+
+/* RODAPÉ DA PÁGINA */
+
+.rodape {
+    clear: both;
+    text-align: center;
+    background: rgb(182, 181, 181);
+    padding: 20px 0;
+    font-style: oblique;
+    font-size: 1.1em;
+}

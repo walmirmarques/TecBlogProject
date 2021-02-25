@@ -4,18 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto TecBlog</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>TecBlog - O seu Blog de Tecnologia</title>
 </head>
 <body>
-    <header>
-        <section>
-            <h1>TecBlog</h1>
+    <header class="cabecalho">
+        <h1 class="cabecalho_logo">Tec<span class="branco">Blog</span></h1>
+        <nav class="cabecalho_menu">
             <li><a href="index.html" class="navegacao_menu">Home</a></li>
             <li><a href="jogos.html" class="navegacao_menu">Jogos</a></li>
             <li><a href="celulares.html" class="navegacao_menu">Celulares</a></li>
             <li><a href="Informatica.html" class="navegacao_menu">Informática</a></li>
             <li><a href="eletronicos.html" class="navegacao_menu">Eletrônico</a></li>
-        </section>
+        </nav>
     </header>
+
+    <main class="conteudo_principal">
+        <section class="area_postagens">
+            <!-- Abertura da postagem-->
+            <div class="postagem">
+                <h2>Titulo da Postagem</h2>
+                <span>Postado 20 de Março de 2022</span>
+                <img src="imagens/imagem1.jpg" alt="Imagem da postagem 1">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Magnam accusamus dolorem unde sapiente voluptatum a, consequuntur molestiae, doloribus quisquam 
+                    iste quibusdam et culpa eum, tempora quia ea fugiat at eligendi?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Magnam accusamus dolorem unde sapiente voluptatum a, consequuntur molestiae, doloribus quisquam 
+                    iste quibusdam et culpa eum, tempora quia ea fugiat at eligendi?
+                </p>
+                <a href="">Leia mais ...</a>
+            </div> <!-- Fechamento da postagem-->
+        </section>
+        <section class="area_lateral">
+            Menu Lateral
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p><strong>Todos os direitos reservados</strong></p>
+    </footer>
+
 </body>
 </html>
