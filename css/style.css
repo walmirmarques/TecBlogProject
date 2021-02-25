@@ -13,13 +13,13 @@ body {
 
 /* MENU PRINCIPAL */
 
-.cabecalho{
+.cabecalho {
     background: #f7b600;
     padding: 15px;
     text-align: center;
 }
 
-.cabecalho_logo{
+.cabecalho_logo {
     margin-bottom: 15px;
     font-size: 2.5em;
 }
@@ -30,23 +30,23 @@ body {
 
 .cabecalho_menu li {
     display: inline-block;
-   
+
 }
 
-.cabecalho_menu a{
+.cabecalho_menu a {
     text-decoration: none;
     padding: 10px;
     color: white;
 }
 
-.cabecalho_menu a:hover{
+.cabecalho_menu a:hover {
     color: #f7b600;
     background: white;
 }
 
 /* CONTEUDO DO SITE */
 
-.conteudo_principal{
+.conteudo_principal {
     width: 920px;
     margin: 0 auto;
 
@@ -55,22 +55,63 @@ body {
 .area_postagens {
     width: 660px;
     float: left;
+    margin-top: 20px;
 }
 
 .postagem {
-    padding:20px;
+    padding: 20px;
     margin-bottom: 20px;
     background: white;
 
 }
 
-.postagem img{
+.postagem h2,
+a {
+    color: #f7b600;
+}
+
+.postagem span {
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    display: block;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.postagem img {
     width: 620px;
 }
 
 .area_lateral {
     width: 240px;
     float: right;
+    margin-top: 20px;
+    background: white;
+}
+
+.postagem_lateral {
+    margin-left: 10px;
+    border-bottom: 1px solid #CCC;
+    padding-bottom: 5px;
+}
+
+.postagem_lateral:last-child {
+    border-bottom: none;
+}
+
+.postagem_lateral a{
+    display: block;
+}
+
+.area_lateral h3{
+    padding: 5px;
+    background: #CCC;
+    margin: 0 10px;
+}
+
+.postagem_lateral p, a {
+    font-size: 0.7em;
+    padding-top: 10px;
 }
 
 /* RODAPÉ DA PÁGINA */
